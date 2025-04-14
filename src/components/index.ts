@@ -8,3 +8,8 @@ export * from "./Container/Container";
 export * from "./Avatar/Avatar";
 export * from "./CounterServices/CounterServices";
 export * from "./TimeLine/TimeLine";
+export * from "./CircleImage/CircleImage";
+export * from "./AvatarServices/AvatarServices";
+export * from "./SliderServices/SliderServices";
+export * from "./AvatarPortfolio/AvatarPortfolio";
+export * from "./PortfolioBox/PortfolioBox";

@@ -29,7 +29,7 @@ export const TimeLine = () => {
                 </time>
                 <p className="text-xl font-bold text-gray-400">{subtitle}</p>
               </div>
-              <p className="text-slate-400">{description}</p>
+              <p className="text-slate-400 max-w-md">{description}</p>
             </div>
           ))}
         </div>
