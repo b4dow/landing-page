@@ -14,8 +14,9 @@ interface Props {
 export const PortfolioBox = ({ data }: Props) => {
   const { title, image, urlGithub, urlDemo } = data;
   return (
-    <div className="p-4 border border-teal-50 rounded-xl">
+    <div className="p-4 border border-teal-50 rounded-xl flex flex-col items-center justify-center">
       <h3 className="mb-4 text-xl">{title}</h3>
+
       <Image
         src={image}
         alt="Image product"

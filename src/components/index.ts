@@ -13,3 +13,4 @@ export * from "./AvatarServices/AvatarServices";
 export * from "./SliderServices/SliderServices";
 export * from "./AvatarPortfolio/AvatarPortfolio";
 export * from "./PortfolioBox/PortfolioBox";
+export * from "./SliderTestimonials/SliderTestimonials";

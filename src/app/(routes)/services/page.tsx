@@ -14,8 +14,8 @@ const PageServices = () => {
         <CircleImage />
         <AvatarServices />
         <div className="grid items-center md:h-screen lg:h-0 max-w-5xl gap-6 mx-auto md:grid-cols-2 md:px-20 ">
-          <div className="">
-            <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">
+          <div className="text-center mb-5">
+            <h1 className="text-3xl leading-tight text-center md:text-left md:text-4xl mb-5">
               Mis <span className="text-secondary font-bold">servicios</span>
             </h1>
             <p className="mb-3 text-xl text-center  text-gray-300">

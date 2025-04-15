@@ -19,27 +19,17 @@ import {
 export const socialNetworks = [
   {
     id: 1,
-    logo: <Youtube size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: <Linkedin size={30} strokeWidth={1} />,
+    src: "https://www.linkedin.com/in/alfonsodeveloper/",
   },
   {
     id: 2,
-    logo: <Linkedin size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: <Twitter size={30} strokeWidth={1} />,
+    src: "https://x.com/luidev07",
   },
   {
     id: 3,
-    logo: <Twitter size={30} strokeWidth={1} />,
-    src: "#!",
-  },
-  {
-    id: 4,
     logo: <Rss size={30} strokeWidth={1} />,
-    src: "#!",
-  },
-  {
-    id: 5,
-    logo: <Twitch size={30} strokeWidth={1} />,
     src: "#!",
   },
 ];
@@ -179,8 +169,9 @@ export const serviceData = [
 export const dataPortfolio = [
   {
     id: 1,
-    title: "Web Pro",
-    image: "/image-1.jpg",
+    title: "Control Gastos",
+    image: "/planificador-gastos.png",
+    technologies: ["react", "css"],
     urlGithub: "#!",
     urlDemo: "#!",
   },
@@ -188,6 +179,7 @@ export const dataPortfolio = [
     id: 2,
     title: "Desarrollo Web Ágil",
     image: "/image-2.jpg",
+    technologies: ["react", "css"],
     urlGithub: "#!",
     urlDemo: "#!",
   },
